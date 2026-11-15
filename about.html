@@ -39,10 +39,30 @@
             <p>My goal is to continue developing my IT skills and learn how to protect computers, networks, and information from security threats.</p>
         </section>
 
-        <section>
-            <h2>Contact Me</h2>
-            <p>Contact information will be added here.</p>
-        </section>
+       <section>
+    <h2>Contact Me</h2>
+    <p>Use the form below to get in touch.</p>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required aria-describedby="name-error">
+            <span id="name-error" class="error-message">Please enter your name.</span>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required aria-describedby="email-error">
+            <span id="email-error" class="error-message">Please enter a valid email address.</span>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+            <span id="message-error" class="error-message">Please enter a message.</span>
+
+            <button type="submit">Send Message</button>
+        </fieldset>
+    </form>
+</section>
     </main>
 
     <footer>
