@@ -32,3 +32,7 @@ My portfolio uses a consistent blue color palette:
 - White: `#ffffff`
 
 The colors were selected to create a consistent appearance and maintain readable text contrast.
+
+## Contact Form Testing
+
+The contact form was manually tested to check that users can enter information into each field. The required fields and email input use built-in HTML validation. However, submitting the form displays a 405 Not Allowed error because GitHub Pages does not support processing form submissions. The form is currently a demonstration and does not deliver messages.
